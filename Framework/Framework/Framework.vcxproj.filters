@@ -30,28 +30,28 @@
     <ClInclude Include="core\Expression.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsTriangle.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="core\UnaryExpression.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\Is.h">
+    <ClInclude Include="fuzzy\IsTrapeze.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsTrapeze.h">
+    <ClInclude Include="fuzzy\IsTrapezeLeft.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsTrapezeLeft.h">
+    <ClInclude Include="fuzzy\IsTrapezeRight.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsTrapezeRight.h">
+    <ClInclude Include="fuzzy\IsTriangle.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsBell.h">
+    <ClInclude Include="fuzzy\Is.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="core\IsGaussian.h">
+    <ClInclude Include="fuzzy\IsBell.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\IsGaussian.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

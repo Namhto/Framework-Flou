@@ -3,26 +3,26 @@
 
 #include "Is.h"
 
-namespace core
+namespace fuzzy
 {
 
 	template <class T>
 	class IsTriangle:public Is<T>
 	{
-	public:		
-		IsTriangle(const T&, const T&, const T&);
-		T getMin() const;
-		T getMid() const;
-		T getMax() const;
-		void setMin(T&);
-		void setMid(T&);
-		void setMax(T&);
-		T evaluate(Expression<T>*) const;
-
 	private:
 		T min;
 		T mid;
 		T max;
+
+	public:		
+		IsTriangle(const T&, const T&, const T&);
+		virtual T getMin() const;
+		virtual T getMid() const;
+		virtual T getMax() const;
+		virtual void setMin(T&);
+		virtual void setMid(T&);
+		virtual void setMax(T&);
+		virtual T evaluate(Expression<T>*) const;
 	};
 
 
@@ -63,9 +63,10 @@ namespace core
 
 	template <class T>
 	T IsTriangle<T>::evaluate(Expression<T>* e) const {
-		T ev=e->evaluate();
-		if (ev<=min || ev >=max) return 0;
-		return (ev<=mid)?((ev-min)/(mid-min)):((max-ev)/(max-mid));
+		
+		T evaluation = e->evaluate();
+		if ((evaluation <= min) || (evaluation >= max)) return 0;
+		return (evaluation <= mid) ? ((evaluation - min)/(mid-min)) : ((max - evaluation)/(max-mid));
 	}
 }
 

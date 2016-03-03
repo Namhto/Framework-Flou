@@ -147,14 +147,14 @@
   <ItemGroup>
     <ClInclude Include="core\BinaryExpression.h" />
     <ClInclude Include="core\Expression.h" />
-    <ClInclude Include="core\Is.h" />
-    <ClInclude Include="core\IsBell.h" />
-    <ClInclude Include="core\IsGaussian.h" />
-    <ClInclude Include="core\IsTrapeze.h" />
-    <ClInclude Include="core\IsTrapezeLeft.h" />
-    <ClInclude Include="core\IsTrapezeRight.h" />
-    <ClInclude Include="core\IsTriangle.h" />
     <ClInclude Include="core\UnaryExpression.h" />
+    <ClInclude Include="fuzzy\Is.h" />
+    <ClInclude Include="fuzzy\IsBell.h" />
+    <ClInclude Include="fuzzy\IsGaussian.h" />
+    <ClInclude Include="fuzzy\IsTrapeze.h" />
+    <ClInclude Include="fuzzy\IsTrapezeLeft.h" />
+    <ClInclude Include="fuzzy\IsTrapezeRight.h" />
+    <ClInclude Include="fuzzy\IsTriangle.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

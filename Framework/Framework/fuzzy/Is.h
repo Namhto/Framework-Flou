@@ -1,9 +1,9 @@
 #ifndef IS_H
 #define IS_H
 
-#include "UnaryExpression.h"
+#include "../core/UnaryExpression.h"
 
-namespace core
+namespace fuzzy
 {
 	template <class T>
 	class Is:public UnaryExpression<T> // Interface
