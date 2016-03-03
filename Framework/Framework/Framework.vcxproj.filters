@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\core">
+      <UniqueIdentifier>{928fe5d5-2c0f-4052-a97e-0c264af3278c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\fuzzy">
+      <UniqueIdentifier>{7238d2da-f4ea-4938-85e6-cb9d302cff28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\operator">
+      <UniqueIdentifier>{51df9e5e-46db-45cf-82e0-ae14af8e2a8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -25,34 +34,34 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="core\BinaryExpression.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\core</Filter>
     </ClInclude>
     <ClInclude Include="core\Expression.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\core</Filter>
     </ClInclude>
     <ClInclude Include="core\UnaryExpression.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="fuzzy\IsTrapeze.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="fuzzy\IsTrapezeLeft.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="fuzzy\IsTrapezeRight.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="fuzzy\IsTriangle.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\core</Filter>
     </ClInclude>
     <ClInclude Include="fuzzy\Is.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
     </ClInclude>
     <ClInclude Include="fuzzy\IsBell.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
     </ClInclude>
     <ClInclude Include="fuzzy\IsGaussian.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\IsTriangle.h">
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\IsTrapezeRight.h">
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\IsTrapezeLeft.h">
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\IsTrapeze.h">
+      <Filter>Fichiers d%27en-tête\fuzzy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
