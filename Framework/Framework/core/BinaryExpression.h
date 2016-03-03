@@ -1,7 +1,7 @@
-#include "Expression.h"
-
 #ifndef BINARYEXPRESSION_H
 #define BINARYEXPRESSION_H
+
+#include "Expression.h"
 
 namespace core
 {

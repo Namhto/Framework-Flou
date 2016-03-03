@@ -19,8 +19,8 @@
     <Filter Include="Fichiers d%27en-tête\fuzzy">
       <UniqueIdentifier>{7238d2da-f4ea-4938-85e6-cb9d302cff28}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête\operator">
-      <UniqueIdentifier>{51df9e5e-46db-45cf-82e0-ae14af8e2a8b}</UniqueIdentifier>
+    <Filter Include="Fichiers d%27en-tête\fuzzy\operator">
+      <UniqueIdentifier>{f9c1f69a-47c6-41aa-adf4-c8cb087c4d8d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,18 @@
     </ClInclude>
     <ClInclude Include="fuzzy\IsTrapeze.h">
       <Filter>Fichiers d%27en-tête\fuzzy</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\Operator.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="core\NaryExpression.h">
+      <Filter>Fichiers d%27en-tête\core</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\AggPlus.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\AggMax.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
