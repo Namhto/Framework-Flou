@@ -5,7 +5,6 @@
 
 namespace core
 {
-
 	template <class T>
 	class Is:public UnaryExpression<T> // Interface
 	{
@@ -13,5 +12,4 @@ namespace core
 	};
 }
 
-//TOTO
 #endif

@@ -148,6 +148,11 @@
     <ClInclude Include="core\BinaryExpression.h" />
     <ClInclude Include="core\Expression.h" />
     <ClInclude Include="core\Is.h" />
+    <ClInclude Include="core\IsBell.h" />
+    <ClInclude Include="core\IsGaussian.h" />
+    <ClInclude Include="core\IsTrapeze.h" />
+    <ClInclude Include="core\IsTrapezeLeft.h" />
+    <ClInclude Include="core\IsTrapezeRight.h" />
     <ClInclude Include="core\IsTriangle.h" />
     <ClInclude Include="core\UnaryExpression.h" />
     <ClInclude Include="stdafx.h" />
