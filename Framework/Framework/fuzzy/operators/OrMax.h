@@ -1,25 +1,25 @@
-#ifndef AGGMAX_H
-#define AGGMAX_H
+#ifndef ORMAX_H
+#define ORMAX_H
 
-#include"Operator.h"
+#include "Operator.h"
 
 namespace fuzzy
 {
 
 	template <class T>
-	class AggMax : public Agg<T>
+	class OrMax : public Or<T>
 	{
-	public:
-		AggMax();
-		virtual ~AggMax() {};
+	public :
+		OrMax();
+		virtual ~OrMax(){};
 		virtual T evaluate(Expression<T>*, Expression<T>*) const;
 	};
 
 	template <class T>
-	AggMax<T>::AggMax() {}
+	OrMax<T>::OrMax() {}
 
 	template <class T>
-	T AggMax<T>::evaluate(Expression<T>* l, Expression<T>* r) const {
+	T OrMax<T>::evaluate(Expression<T>* l, Expression<T>* r) const {
 		T l_evaluation = l->evaluate();
 		T r_evaluation = r->evaluate();
 		return (l_evaluation > r_evaluation) ? l_evaluation : r_evaluation;

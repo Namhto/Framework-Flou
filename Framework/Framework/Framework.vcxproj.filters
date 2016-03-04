@@ -75,6 +75,24 @@
     <ClInclude Include="fuzzy\operators\AggMax.h">
       <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
     </ClInclude>
+    <ClInclude Include="fuzzy\operators\OrPlus.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\ThenMin.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\ThenMult.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\AndMin.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\AndMult.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\OrMax.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
