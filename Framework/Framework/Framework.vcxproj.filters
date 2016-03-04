@@ -93,6 +93,12 @@
     <ClInclude Include="fuzzy\operators\OrMax.h">
       <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
     </ClInclude>
+    <ClInclude Include="fuzzy\operators\NotMinus1.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy\operators\MamdaniDefuzz.h">
+      <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

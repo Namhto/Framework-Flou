@@ -2,6 +2,7 @@
 #define OPERATOR_H
 
 #include "../../core/BinaryExpression.h"
+#include "../../core/UnaryExpression.h"
 #include <cmath>
 using namespace core;
 
