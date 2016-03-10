@@ -12,7 +12,7 @@ namespace fuzzy
 		MamdaniDefuzz();
 		virtual ~MamdaniDefuzz() {};
 		virtual T evaluate(Expression<T>*, Expression<T>*) const;
-		virtual T defuzz() const = 0;
+	//	virtual T defuzz(Evaluator::buildShape(T min, T max, T step) const = 0;
 	};
 
 
@@ -21,7 +21,7 @@ namespace fuzzy
 
 	template <class T>
 	T MamdaniDefuzz<T>::evaluate(Expression<T>* l, Expression<T>* r) const {
-		return NULL;
+		//return defuzz(Evaluator::buildShape(T min, T max, T step);
 	}
 
 }

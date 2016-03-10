@@ -99,6 +99,12 @@
     <ClInclude Include="fuzzy\operators\MamdaniDefuzz.h">
       <Filter>Fichiers d%27en-tête\fuzzy\operator</Filter>
     </ClInclude>
+    <ClInclude Include="core\ValueModel.h">
+      <Filter>Fichiers d%27en-tête\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\BinaryExpressionModel.h">
+      <Filter>Fichiers d%27en-tête\core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
