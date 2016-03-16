@@ -27,4 +27,5 @@ namespace core
 		value = _value;
 	}
 }
+
 #endif

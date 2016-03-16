@@ -22,7 +22,7 @@ namespace fuzzy
 	T AggMax<T>::evaluate(Expression<T>* l, Expression<T>* r) const {
 		T l_evaluation = l->evaluate();
 		T r_evaluation = r->evaluate();
-		return (l_evaluation > r_evaluation) ? l_evaluation : r_evaluation;
+	 	return (l_evaluation > r_evaluation) ? l_evaluation : r_evaluation;
 	}
 }
 

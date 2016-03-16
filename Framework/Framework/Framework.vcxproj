@@ -150,6 +150,7 @@
     <ClInclude Include="core\Expression.h" />
     <ClInclude Include="core\NaryExpression.h" />
     <ClInclude Include="core\UnaryExpression.h" />
+    <ClInclude Include="core\UnaryExpressionModel.h" />
     <ClInclude Include="core\ValueModel.h" />
     <ClInclude Include="fuzzy\Is.h" />
     <ClInclude Include="fuzzy\IsBell.h" />
